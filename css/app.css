@@ -3,7 +3,7 @@
 } */
 @import url('https://fonts.googleapis.com/css?family=Cabin|Playfair+Display');
 
-body {font-family: 'Cabin', sans-serif;}
+body, nav {font-family: 'Cabin', sans-serif;}
 
 h1, h2,h3,h4,h5,h6 {
 font-family: 'Playfair Display', serif;
@@ -13,5 +13,24 @@ h2 {
   font-size: 1.35rem;
 }
 p {
-  line-height: 1.25rem;
+  line-height: 1.5rem;
+}
+.nav-padding {
+  padding: 25px 10px;
+}
+
+nav li a {
+  color: rgb(18,26,98);
+  font-size: 1.25rem;
+}
+
+nav li a:hover {
+  color:rgb(56,72,217);
+}
+header {
+  background-color: rgba(136,146,233,1);
+  color: rgb(255,255,255);
+}
+.footertxt {
+  font-size:.75em;
 }
