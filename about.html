@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
-<body class="overflow">
+<body>
   <!-- Start the header section of each page here -->
   <header class="grid-x align-center">
    <h5>Natalie Bamsch Portfolio Website</h5>
@@ -50,11 +50,33 @@
 <p class="cell"> copyright 2018, all rights reserved</p>
 </footer> -->
 
+<form class="large-12" action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Start your message here.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
 </div>
 
-<section class="block grid-y grid-frame">
-  <footer class="grid-x footertxt">
+
+<section class="block grid-x">
+  <footer class="footertxt">
   <p class="cell large-4"> &#169; copyright 2018, all rights reserved</p>
+  </footer>
   <!-- <p class="cell large-8">
     <ul class="menu">
       <li><a href="index.html">Home</a></li>
